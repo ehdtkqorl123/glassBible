@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    style="@style/Layout.Card"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        style="@style/ImageView.FullScreen"
+        android:id="@+id/background" />
+
+    <LinearLayout
+        style="@style/Layout.Center">
+
+        <TextView
+            android:id="@+id/progress_text"
+            style="@style/TextView.XLarge"/>
+
+        <TextView
+            android:id="@+id/primary_notification"
+            style="@style/TextView.Notification"/>
+
+        <TextView
+            android:id="@+id/secondary_notification"
+            style="@style/TextView.Notification.Secondary"/>
+    </LinearLayout>
+
+    <ca.paulshin.glass.bible.view.ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/ProgressBar"/>
+
+    <TextView
+        android:id="@+id/grace_period_text"
+        android:layout_above="@id/progress_bar"
+        style="@style/TextView.Grace"/>
+</RelativeLayout>

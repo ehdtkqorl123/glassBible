@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GlassBible</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <string name="trigger_search_for_verse">Search the Bible</string>
+    <string name="trigger_search_for_verse_prompt">eg. Matthew Chapter 1 Verse 10\nor John Chapter 3 Verse 16 to 17\nor Today (for Verse of the Day)\nor Random</string>
+    
+    <string name="loading">Loading …</string>
+    <string name="read_aloud">Read aloud</string>
+    <string name="error_please_try_again">Error. Please try again.</string>
+</resources>
