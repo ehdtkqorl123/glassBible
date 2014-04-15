@@ -141,36 +141,11 @@ public final class R {
     }
     public static final class string {
         public static final int action_settings=0x7f0c0002;
-        public static final int add_photo=0x7f0c0014;
         public static final int app_name=0x7f0c0000;
-        public static final int change_shout=0x7f0c0015;
-        public static final int check_in=0x7f0c0013;
-        public static final int checked_in=0x7f0c000d;
-        public static final int checking_in=0x7f0c0010;
-        public static final int dont_share_to_facebook=0x7f0c001c;
-        public static final int dont_share_to_twitter=0x7f0c001b;
         public static final int error_please_try_again=0x7f0c0007;
-        public static final int get_directions=0x7f0c0009;
-        public static final int grace_period_text=0x7f0c0018;
         public static final int hello_world=0x7f0c0001;
-        public static final int invalid_qr=0x7f0c0012;
         public static final int loading=0x7f0c0005;
-        public static final int login_hint=0x7f0c000f;
-        public static final int no_location=0x7f0c000b;
-        public static final int no_tips_here=0x7f0c001d;
-        public static final int no_venues_found=0x7f0c0017;
-        public static final int popular_tip=0x7f0c0016;
-        public static final int qr_scanning_failed=0x7f0c0011;
         public static final int read_aloud=0x7f0c0006;
-        public static final int share_to_facebook=0x7f0c001a;
-        public static final int share_to_twitter=0x7f0c0019;
-        public static final int static_card_text=0x7f0c001e;
-        public static final int tap_to_check_in=0x7f0c000c;
-        public static final int tap_to_scan_qr_code=0x7f0c000e;
-        public static final int tips=0x7f0c000a;
-        /**  !!!!!!!! 
-         */
-        public static final int trigger_check_in=0x7f0c0008;
         public static final int trigger_search_for_verse=0x7f0c0003;
         public static final int trigger_search_for_verse_prompt=0x7f0c0004;
     }
