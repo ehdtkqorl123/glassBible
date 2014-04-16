@@ -20,7 +20,6 @@ import ca.paulshin.glass.bible.api.SearchVerses.Verse;
 import ca.paulshin.glass.bible.utils.DebugLog;
 
 import com.google.android.glass.app.Card;
-import com.google.android.glass.timeline.TimelineManager;
 
 public class VersesActivity extends BaseCardScrollActivity {
 	public static String EXTRA_COMMAND = "command";
@@ -67,11 +66,11 @@ public class VersesActivity extends BaseCardScrollActivity {
             	}
             	mSpeech.speak(verseTexts.toString(), TextToSpeech.QUEUE_FLUSH, null);
             	
-            	// Create a static card
-            	Card card = new Card(App.get());
-                card.setText(verseTexts.toString());
-                card.setFootnote(command.replace("%20", " "));                
-            	TimelineManager.from(App.get()).insert(card);
+            	// Timeline deprecated on 4.4.2
+//            	Card card = new Card(App.get());
+//            	card.setText(verseTexts.toString());
+//            	card.setFootnote(command.replace("%20", " "));                
+//            	TimelineManager.from(App.get()).insert(card);
             	
                 showContent(new VerseSearchAdapter(verses), new CardSelectedListener() {
 					@Override

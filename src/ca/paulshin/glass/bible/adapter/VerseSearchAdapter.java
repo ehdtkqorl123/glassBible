@@ -32,21 +32,16 @@ public class VerseSearchAdapter extends CardScrollAdapter {
     }
 
     @Override
-    public View getView(int i, View view, ViewGroup viewGroup) {
+    public View getView(int position, View view, ViewGroup viewGroup) {
         Card card = new Card(App.get());
-        SearchVerses.Verse verse = mVerses.get(i);
+        SearchVerses.Verse verse = mVerses.get(position);
         card.setText(verse.text.replace("<b>", "").replace("</b>", ""));
         card.setFootnote(verse.bookname + " " + verse.chapter + ":" + verse.verse);
-        return card.toView();
+        return card.getView();
     }
 
-    @Override
-    public int findIdPosition(Object o) {
-        return -1;
-    }
-
-    @Override
-    public int findItemPosition(Object o) {
-        return mVerses.indexOf(o);
-    }
+	@Override
+	public int getPosition(Object item) {
+		return mVerses.indexOf(item);
+	}
 }
