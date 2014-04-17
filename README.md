@@ -22,10 +22,4 @@ Send email to friends
 
 ### Screenshots:
 
-![Screen Shot1](https://raw.githubusercontent.com/ehdtkqorl123/glassBible/master/1.png)
-
-![Screen Shot1](https://raw.githubusercontent.com/ehdtkqorl123/glassBible/master/2.png)
-
-![Screen Shot1](https://raw.githubusercontent.com/ehdtkqorl123/glassBible/master/3.png)
-
-![Screen Shot1](https://raw.githubusercontent.com/ehdtkqorl123/glassBible/master/4.png)
+![Screen Shot1](https://raw.githubusercontent.com/ehdtkqorl123/glassBible/master/glassbible.gif)
